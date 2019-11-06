@@ -1,5 +1,3 @@
-#Really should add that manual trigger
-
 name: ThisIsJustATest
 
 on: [push]
