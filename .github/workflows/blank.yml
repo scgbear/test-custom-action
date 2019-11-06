@@ -9,6 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: scgbear/serverless-github-action@releases/v1
+    - uses: scgbear/azure-build-task@releases/v1
       with: 
         credentialssecret: azureserviceprincipal
+        authtype: azure
