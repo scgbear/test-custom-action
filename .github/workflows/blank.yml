@@ -12,5 +12,4 @@ jobs:
     - uses: actions/checkout@v1
     - uses: scgbear/serverless-github-action@releases/v1
       with: 
-        credentialssecret: ${{ secrets.azureserviceprincipal }}
-        authtype: azure
+        credentials: ${{ secrets.azureserviceprincipal }}
