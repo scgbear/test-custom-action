@@ -10,6 +10,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: scgbear/serverless-github-action@releases/v1
+    - uses: scgbear/serverless-github-action@releases/v0.1.0
       with: 
         credentials: ${{ secrets.azureserviceprincipal }}
